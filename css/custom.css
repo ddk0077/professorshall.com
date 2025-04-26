@@ -39,9 +39,9 @@ a.btn:not([href]):not([tabindex]) {
   color: white;
 }
 
-#mainMenu nav > ul > li > a {
+/* #mainMenu nav > ul > li > a {
   color: white;
-}
+} */
 #header .header-inner #logo a,
 #header .header-inner #logo a span,
 #header #header-wrap #logo a,
@@ -67,6 +67,7 @@ a.btn:not([href]):not([tabindex]) {
 #mainMenu nav > ul > li:focus > span {
   background-color: white;
   color: #781f32;
+  border-radius: 5px !important;
 }
 #mainMenu nav > ul > li .dropdown-menu > li.current > a,
 #mainMenu nav > ul > li .dropdown-menu > li.current > span,
@@ -84,10 +85,13 @@ a.btn:not([href]):not([tabindex]) {
   padding-right: 80px;
   padding-left: 80px;
 }
-
+.menu-animate nav > ul > li > a {
+  color: #781f32 !important;
+}
 .special-section .content-list {
   font-size: 18px;
   line-height: 30px;
+  justify-content: flex-end;
 }
 
 .special-section .content-list h3 {
@@ -123,4 +127,100 @@ a.btn:not([href]):not([tabindex]) {
 }
 .enquire-text {
   font-size: 24px;
+}
+/* a:not(.btn):not(.badge):not(.btn):not([href]):not([tabindex]) {
+  color: white;
+} */
+.lines,
+.lines:before,
+.lines:after {
+  background-color: white !important;
+}
+#mainMenu nav > ul > li > a {
+  color: white;
+}
+.x.toggle-active .lines:before,
+.x.toggle-active .lines:after {
+  background-color: #781f32 !important;
+}
+.special-section li {
+  text-align: left;
+  color: white;
+}
+.html5vid video {
+  object-fit: none;
+}
+.special-section .bg-overlay {
+  background: rgba(0, 0, 0, 0.59);
+}
+.special-section .bg-overlay {
+  background: rgba(0, 0, 0, 0.59);
+}
+.visit-section .bg-overlay {
+  background: rgba(0, 0, 0, 0.59);
+}
+.enquire {
+  background-color: white;
+  color: #781f32 !important;
+  border-radius: 5px !important;
+}
+.dark #mainMenu nav > ul > li.hover-active > a,
+.dark #mainMenu nav > ul > li.hover-active > span,
+.dark #mainMenu nav > ul > li.current > a,
+.dark #mainMenu nav > ul > li.current > span,
+.dark #mainMenu nav > ul > li:hover > a,
+.dark #mainMenu nav > ul > li:hover > span,
+.dark #mainMenu nav > ul > li:focus > a,
+.dark #mainMenu nav > ul > li:focus > span,
+#mainMenu.dark nav > ul > li.hover-active > a,
+#mainMenu.dark nav > ul > li.hover-active > span,
+#mainMenu.dark nav > ul > li.current > a,
+#mainMenu.dark nav > ul > li.current > span,
+#mainMenu.dark nav > ul > li:hover > a,
+#mainMenu.dark nav > ul > li:hover > span,
+#mainMenu.dark nav > ul > li:focus > a,
+#mainMenu.dark nav > ul > li:focus > span {
+  color: #781f32;
+  border-radius: 5px !important;
+}
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .welcome-section .para {
+    font-size: 1rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .welcome-section .para {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .welcome-section .para {
+    font-size: 1.2rem; /* Slightly bigger on tablets */
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .welcome-section .para {
+    font-size: 1.5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .welcome-section .para {
+    font-size: 2rem;
+  }
+}
+
+/* Extra extra large devices (very large screens, 1400px and up) */
+@media (min-width: 1400px) {
+  .welcome-section .para {
+    font-size: 2rem;
+  }
 }
