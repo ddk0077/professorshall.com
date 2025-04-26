@@ -1,0 +1,126 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+button.btn,
+button.btn:hover,
+button.btn:focus,
+button.btn:not(:disabled):not(.disabled):active,
+button.btn:not(:disabled):not(.disabled).active,
+.btn:not(.close):not(.mfp-close):hover,
+.btn:not(.close):not(.mfp-close):focus,
+.btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled):active,
+.btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled).active,
+a.btn:not([href]):not([tabindex]):hover,
+a.btn:not([href]):not([tabindex]):focus,
+a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled):active,
+a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled).active {
+  background-color: #781f32;
+  border-color: #781f32;
+}
+button.btn,
+.btn:not(.close):not(.mfp-close),
+a.btn:not([href]):not([tabindex]) {
+  background-color: #781f32;
+  border-color: #781f32;
+}
+#header .header-inner,
+#header #header-wrap {
+  background-color: #781f32;
+}
+#header .header-inner #logo a,
+#header .header-inner #logo a span,
+#header #header-wrap #logo a,
+#header #header-wrap #logo a span {
+  color: white;
+}
+
+#mainMenu nav > ul > li > a {
+  color: white;
+}
+#header .header-inner #logo a,
+#header .header-inner #logo a span,
+#header #header-wrap #logo a,
+#header #header-wrap #logo a span {
+  font-size: 18px;
+}
+.heading-text.heading-section h2:before {
+  background-color: #781f32;
+}
+.welcome-section .para {
+  font-size: 2rem;
+  line-height: normal;
+  text-align: center;
+}
+
+#mainMenu nav > ul > li.hover-active > a,
+#mainMenu nav > ul > li.hover-active > span,
+#mainMenu nav > ul > li.current > a,
+#mainMenu nav > ul > li.current > span,
+#mainMenu nav > ul > li:hover > a,
+#mainMenu nav > ul > li:hover > span,
+#mainMenu nav > ul > li:focus > a,
+#mainMenu nav > ul > li:focus > span {
+  background-color: white;
+  color: #781f32;
+}
+#mainMenu nav > ul > li .dropdown-menu > li.current > a,
+#mainMenu nav > ul > li .dropdown-menu > li.current > span,
+#mainMenu nav > ul > li .dropdown-menu > li:hover > a,
+#mainMenu nav > ul > li .dropdown-menu > li:hover > span,
+#mainMenu nav > ul > li .dropdown-menu > li:focus > a,
+#mainMenu nav > ul > li .dropdown-menu > li:focus > span,
+#mainMenu nav > ul > li .dropdown-menu > li:active > a,
+#mainMenu nav > ul > li .dropdown-menu > li:active > span,
+#mainMenu nav > ul > li .dropdown-menu > li.hover-active > a,
+#mainMenu nav > ul > li .dropdown-menu > li.hover-active > span {
+  color: #781f32;
+}
+.special-section .container-fluid {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.special-section .content-list {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.special-section .content-list h3 {
+  font-size: 42px;
+}
+.events-section {
+  background: rgb(120 31 50);
+  opacity: 1;
+}
+.img-events {
+  width: 100px; /* or any size that fits your design */
+  height: 100px;
+  margin: 0 auto; /* center the image horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-events img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* or cover depending on your need */
+}
+.events-section .heading-text h2 {
+  color: white;
+}
+.highlight-text {
+  font-size: 24px;
+}
+.location-text {
+  font-size: 20px;
+}
+.enquire-text {
+  font-size: 24px;
+}
