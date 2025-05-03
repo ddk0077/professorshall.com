@@ -151,14 +151,17 @@ a.btn:not([href]):not([tabindex]) {
   object-fit: none;
 }
 .special-section .bg-overlay {
-  background: rgba(0, 0, 0, 0.59);
+  background: rgba(0, 0, 0, 1);
 }
 .special-section .bg-overlay {
-  background: rgba(0, 0, 0, 0.59);
+  background: rgba(0, 0, 0, 1);
 }
-.visit-section .bg-overlay {
-  background: rgba(0, 0, 0, 0.59);
+.visit-section {
+  background: #781f32;
 }
+/* .bg-overlay {
+  background: rgba(0, 0, 0, 1);
+} */
 .enquire {
   background-color: white;
   color: #781f32 !important;
@@ -223,4 +226,20 @@ a.btn:not([href]):not([tabindex]) {
   .welcome-section .para {
     font-size: 2rem;
   }
+}
+
+.bg-overlay[data-style="4"] {
+  background: linear-gradient(
+    140deg,
+    rgb(0 0 0 / 98%) 0%,
+    rgb(13 3 0 / 71%) 100%
+  );
+  opacity: 0.9;
+}
+.prof video {
+  border-radius: 12px;
+}
+.enquire-text a {
+  background-color: white !important;
+  color: #781f32 !important;
 }
