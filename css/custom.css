@@ -140,7 +140,7 @@ a.btn:not([href]):not([tabindex]) {
 .lines,
 .lines:before,
 .lines:after {
-  background-color: white !important;
+  background-color: #f8f1e7 !important;
 }
 #mainMenu nav > ul > li > a {
   color: #f8f1e7;
@@ -195,6 +195,9 @@ a.btn:not([href]):not([tabindex]) {
 .heading-text h2 {
   font-size: 48px;
 }
+.visit-section .heading-text h2 {
+  font-size: 48px;
+}
 .highlight-text {
   font-size: 24px;
 }
@@ -205,6 +208,12 @@ a.btn:not([href]):not([tabindex]) {
   }
   .heading-text h2 {
     font-size: 38px;
+  }
+  .visit-section .heading-text h2 {
+    font-size: 36px;
+  }
+  .highlight-text {
+    font-size: 18px;
   }
 }
 
@@ -219,6 +228,9 @@ a.btn:not([href]):not([tabindex]) {
   .highlight-text {
     font-size: 18px;
   }
+  .visit-section .heading-text h2 {
+    font-size: 36px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -231,6 +243,9 @@ a.btn:not([href]):not([tabindex]) {
   }
   .highlight-text {
     font-size: 18px;
+  }
+  .visit-section .heading-text h2 {
+    font-size: 36px;
   }
 }
 
@@ -245,6 +260,9 @@ a.btn:not([href]):not([tabindex]) {
   .highlight-text {
     font-size: 20px;
   }
+  .visit-section .heading-text h2 {
+    font-size: 40px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -258,6 +276,9 @@ a.btn:not([href]):not([tabindex]) {
   .highlight-text {
     font-size: 22px;
   }
+  .visit-section .heading-text h2 {
+    font-size: 44px;
+  }
 }
 
 /* Extra extra large devices (very large screens, 1400px and up) */
@@ -270,6 +291,9 @@ a.btn:not([href]):not([tabindex]) {
   }
   .highlight-text {
     font-size: 24px;
+  }
+  .visit-section .heading-text h2 {
+    font-size: 48px;
   }
 }
 
@@ -357,4 +381,13 @@ body {
 }
 .mainMenu-open .logo-default {
   display: none !important;
+}
+.flickity-button:hover {
+  color: #f8f1e7;
+}
+.gallery-prof .flickity-button:hover::before {
+  color: #f8f1e7 !important;
+}
+.gallery-prof .flickity-page-dots .dot:after {
+  background-color: #781f32 !important;
 }
