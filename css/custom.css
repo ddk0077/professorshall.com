@@ -209,6 +209,9 @@ a.btn:not([href]):not([tabindex]) {
   .heading-text h2 {
     font-size: 38px;
   }
+  .heading-text.heading-section h2 {
+    font-size: 38px;
+  }
   .visit-section .heading-text h2 {
     font-size: 36px;
   }
@@ -223,6 +226,9 @@ a.btn:not([href]):not([tabindex]) {
     font-size: 1rem;
   }
   .heading-text h2 {
+    font-size: 38px;
+  }
+  .heading-text.heading-section h2 {
     font-size: 38px;
   }
   .highlight-text {
@@ -241,6 +247,9 @@ a.btn:not([href]):not([tabindex]) {
   .heading-text h2 {
     font-size: 38px;
   }
+  .heading-text.heading-section h2 {
+    font-size: 38px;
+  }
   .highlight-text {
     font-size: 18px;
   }
@@ -255,6 +264,9 @@ a.btn:not([href]):not([tabindex]) {
     font-size: 1.5rem;
   }
   .heading-text h2 {
+    font-size: 40px;
+  }
+  .heading-text.heading-section h2 {
     font-size: 40px;
   }
   .highlight-text {
