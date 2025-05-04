@@ -6,6 +6,12 @@
  <link href="css/custom.css" rel="stylesheet">
 
 */
+@font-face {
+  font-family: "IvyMode";
+  src: url("../webfonts/IvyMode-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 button.btn,
 button.btn:hover,
 button.btn:focus,
@@ -52,7 +58,7 @@ a.btn:not([href]):not([tabindex]) {
   background-color: #781f32;
 }
 .welcome-section .para {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   text-align: center;
 }
@@ -117,7 +123,7 @@ a.btn:not([href]):not([tabindex]) {
   object-fit: contain; /* or cover depending on your need */
 }
 .events-section .heading-text h2 {
-  color: white;
+  color: #f8f1e7 !important;
 }
 .highlight-text {
   font-size: 24px;
@@ -137,7 +143,7 @@ a.btn:not([href]):not([tabindex]) {
   background-color: white !important;
 }
 #mainMenu nav > ul > li > a {
-  color: white;
+  color: #f8f1e7;
 }
 .x.toggle-active .lines:before,
 .x.toggle-active .lines:after {
@@ -145,7 +151,7 @@ a.btn:not([href]):not([tabindex]) {
 }
 .special-section li {
   text-align: left;
-  color: white;
+  color: #f8f1e7 !important;
 }
 .html5vid video {
   object-fit: none;
@@ -186,10 +192,19 @@ a.btn:not([href]):not([tabindex]) {
   color: #781f32;
   border-radius: 5px !important;
 }
+.heading-text h2 {
+  font-size: 48px;
+}
+.highlight-text {
+  font-size: 24px;
+}
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
   .welcome-section .para {
     font-size: 1rem;
+  }
+  .heading-text h2 {
+    font-size: 38px;
   }
 }
 
@@ -198,12 +213,24 @@ a.btn:not([href]):not([tabindex]) {
   .welcome-section .para {
     font-size: 1rem;
   }
+  .heading-text h2 {
+    font-size: 38px;
+  }
+  .highlight-text {
+    font-size: 18px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .welcome-section .para {
     font-size: 1.2rem; /* Slightly bigger on tablets */
+  }
+  .heading-text h2 {
+    font-size: 38px;
+  }
+  .highlight-text {
+    font-size: 18px;
   }
 }
 
@@ -212,19 +239,37 @@ a.btn:not([href]):not([tabindex]) {
   .welcome-section .para {
     font-size: 1.5rem;
   }
+  .heading-text h2 {
+    font-size: 40px;
+  }
+  .highlight-text {
+    font-size: 20px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .welcome-section .para {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .heading-text h2 {
+    font-size: 42px;
+  }
+  .highlight-text {
+    font-size: 22px;
   }
 }
 
 /* Extra extra large devices (very large screens, 1400px and up) */
 @media (min-width: 1400px) {
   .welcome-section .para {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .heading-text h2 {
+    font-size: 48px;
+  }
+  .highlight-text {
+    font-size: 24px;
   }
 }
 
@@ -242,4 +287,74 @@ a.btn:not([href]):not([tabindex]) {
 .enquire-text a {
   background-color: white !important;
   color: #781f32 !important;
+}
+h1,
+h2 {
+  font-family: "IvyMode", serif !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+.background-grey {
+  background-color: #f8f1e7 !important;
+}
+.faq .accordion.accordion-shadow .ac-item {
+  background-color: white;
+}
+
+.img-events {
+  width: 150px;
+  height: 150px;
+}
+.inspiro-slider .slide .slide-captions h1 {
+  color: #f8f1e7 !important;
+}
+.inspiro-slider .slide .slide-captions > p {
+  color: #f8f1e7 !important;
+}
+.slide-captions a {
+  color: #f8f1e7 !important;
+}
+.dark #mainMenu nav > ul > li > a,
+#mainMenu.dark nav > ul > li > a {
+  color: #f8f1e7;
+}
+.text-light,
+.text-light h1,
+.text-light h2,
+.text-light h3,
+.text-light h4,
+.text-light h5,
+.text-light h6,
+.text-light .lead,
+.text-light p,
+.text-light a:not(.btn),
+.text-light a:not(.btn):hover:not(.btn-light),
+.text-light i,
+.text-light li,
+.text-light label,
+.text-light div:not(.alert),
+.text-light span:not(.btn-label) {
+  color: #f8f1e7 !important;
+}
+.background-maroon {
+  background-color: #781f32;
+}
+.background-maroon h2,
+.background-maroon p,
+.background-maroon span {
+  color: #f8f1e7 !important;
+}
+.background-maroon button {
+  background-color: #f8f1e7 !important;
+}
+.flickity-button:before {
+  color: #781f32 !important;
+}
+.flickity-page-dots .dot:after {
+  background-color: #f8f1e7 !important;
+}
+.mainMenu-open .logo-default {
+  display: none !important;
 }
