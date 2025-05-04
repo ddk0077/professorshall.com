@@ -201,10 +201,19 @@ a.btn:not([href]):not([tabindex]) {
 .highlight-text {
   font-size: 24px;
 }
+.welcome-section .para {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.heading-text.heading-section h2 {
+  font-weight: bold;
+}
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
   .welcome-section .para {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .heading-text h2 {
     font-size: 38px;
@@ -223,7 +232,7 @@ a.btn:not([href]):not([tabindex]) {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .welcome-section .para {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .heading-text h2 {
     font-size: 38px;
@@ -242,7 +251,7 @@ a.btn:not([href]):not([tabindex]) {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .welcome-section .para {
-    font-size: 1.2rem; /* Slightly bigger on tablets */
+    font-size: 1.1rem; /* Slightly bigger on tablets */
   }
   .heading-text h2 {
     font-size: 38px;
@@ -261,7 +270,7 @@ a.btn:not([href]):not([tabindex]) {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .welcome-section .para {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .heading-text h2 {
     font-size: 40px;
@@ -280,7 +289,7 @@ a.btn:not([href]):not([tabindex]) {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .welcome-section .para {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .heading-text h2 {
     font-size: 42px;
@@ -296,7 +305,7 @@ a.btn:not([href]):not([tabindex]) {
 /* Extra extra large devices (very large screens, 1400px and up) */
 @media (min-width: 1400px) {
   .welcome-section .para {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .heading-text h2 {
     font-size: 48px;
@@ -312,9 +321,12 @@ a.btn:not([href]):not([tabindex]) {
 .bg-overlay[data-style="4"] {
   background: linear-gradient(
     140deg,
-    rgb(0 0 0 / 98%) 0%,
-    rgb(13 3 0 / 71%) 100%
+    rgba(0, 0, 0, 0.98) 0%,
+    rgba(13, 3, 0, 0.71) 100%
   );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.9;
 }
 .prof video {
@@ -402,4 +414,42 @@ body {
 }
 .gallery-prof .flickity-page-dots .dot:after {
   background-color: #781f32 !important;
+}
+.special-screen .heading-text h2:before {
+  background-color: #f8f1e7 !important;
+}
+.special-screen .row {
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
+.special-screen .list-icon li {
+  color: #f8f1e7;
+}
+.special-screen .lead {
+  font-size: 16px !important;
+  margin-bottom: 15px;
+  font-size: 1rem !important;
+}
+
+.special-screen .heading-text h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.events-section .p1 {
+  font-style: italic;
+}
+.events-section h5 {
+  font-weight: bold;
+}
+.contact-us-img .parallax-container {
+  background: url("../images/project/gallery-home/contact-us.png") 0 !important;
+}
+.about-us-text {
+  text-align: justify;
+}
+#page-title[data-bg-parallax] .page-title > h1 {
+  color: #f8f1e7;
+  font-size: 48px;
+  font-weight: bold;
 }
