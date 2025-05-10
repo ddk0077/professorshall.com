@@ -459,8 +459,9 @@ body {
 .prof-gallery .flickity-page-dots .dot:after {
   background-color: #781f32 !important;
 }
-.f-w-700 {
+.ma-t {
   font-weight: 700;
+  text-transform: uppercase;
 }
 .grid-active-title {
   color: #781f32;
