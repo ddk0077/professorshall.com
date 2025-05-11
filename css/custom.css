@@ -1,0 +1,468 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+@font-face {
+  font-family: "IvyMode";
+  src: url("../webfonts/IvyMode-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+button.btn,
+button.btn:hover,
+button.btn:focus,
+button.btn:not(:disabled):not(.disabled):active,
+button.btn:not(:disabled):not(.disabled).active,
+.btn:not(.close):not(.mfp-close):hover,
+.btn:not(.close):not(.mfp-close):focus,
+.btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled):active,
+.btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled).active,
+a.btn:not([href]):not([tabindex]):hover,
+a.btn:not([href]):not([tabindex]):focus,
+a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled):active,
+a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled).active {
+  background-color: #781f32;
+  border-color: #781f32;
+}
+button.btn,
+.btn:not(.close):not(.mfp-close),
+a.btn:not([href]):not([tabindex]) {
+  background-color: #781f32;
+  border-color: #781f32;
+}
+#header .header-inner,
+#header #header-wrap {
+  background-color: #781f32;
+}
+#header .header-inner #logo a,
+#header .header-inner #logo a span,
+#header #header-wrap #logo a,
+#header #header-wrap #logo a span {
+  color: white;
+}
+
+/* #mainMenu nav > ul > li > a {
+  color: white;
+} */
+#header .header-inner #logo a,
+#header .header-inner #logo a span,
+#header #header-wrap #logo a,
+#header #header-wrap #logo a span {
+  font-size: 18px;
+}
+.heading-text.heading-section h2:before {
+  background-color: #781f32;
+}
+.welcome-section .para {
+  font-size: 1.5rem;
+  line-height: normal;
+  text-align: center;
+}
+
+#mainMenu nav > ul > li.hover-active > a,
+#mainMenu nav > ul > li.hover-active > span,
+#mainMenu nav > ul > li.current > a,
+#mainMenu nav > ul > li.current > span,
+#mainMenu nav > ul > li:hover > a,
+#mainMenu nav > ul > li:hover > span,
+#mainMenu nav > ul > li:focus > a,
+#mainMenu nav > ul > li:focus > span {
+  background-color: white;
+  color: #781f32;
+  border-radius: 5px !important;
+}
+#mainMenu nav > ul > li .dropdown-menu > li.current > a,
+#mainMenu nav > ul > li .dropdown-menu > li.current > span,
+#mainMenu nav > ul > li .dropdown-menu > li:hover > a,
+#mainMenu nav > ul > li .dropdown-menu > li:hover > span,
+#mainMenu nav > ul > li .dropdown-menu > li:focus > a,
+#mainMenu nav > ul > li .dropdown-menu > li:focus > span,
+#mainMenu nav > ul > li .dropdown-menu > li:active > a,
+#mainMenu nav > ul > li .dropdown-menu > li:active > span,
+#mainMenu nav > ul > li .dropdown-menu > li.hover-active > a,
+#mainMenu nav > ul > li .dropdown-menu > li.hover-active > span {
+  color: #781f32;
+}
+.special-section .container-fluid {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.menu-animate nav > ul > li > a {
+  color: #781f32 !important;
+}
+.special-section .content-list {
+  font-size: 18px;
+  line-height: 30px;
+  justify-content: flex-end;
+}
+
+.special-section .content-list h3 {
+  font-size: 42px;
+}
+.events-section {
+  background: rgb(120 31 50);
+  opacity: 1;
+}
+.img-events {
+  width: 100px; /* or any size that fits your design */
+  height: 100px;
+  margin: 0 auto; /* center the image horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-events img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* or cover depending on your need */
+}
+.events-section .heading-text h2 {
+  color: #f8f1e7 !important;
+}
+.highlight-text {
+  font-size: 24px;
+}
+.location-text {
+  font-size: 20px;
+}
+.enquire-text {
+  font-size: 24px;
+}
+/* a:not(.btn):not(.badge):not(.btn):not([href]):not([tabindex]) {
+  color: white;
+} */
+.lines,
+.lines:before,
+.lines:after {
+  background-color: #f8f1e7 !important;
+}
+#mainMenu nav > ul > li > a {
+  color: #f8f1e7;
+}
+.x.toggle-active .lines:before,
+.x.toggle-active .lines:after {
+  background-color: #781f32 !important;
+}
+.special-section li {
+  text-align: left;
+  color: #f8f1e7 !important;
+}
+.html5vid video {
+  object-fit: none;
+}
+.special-section .bg-overlay {
+  background: rgba(0, 0, 0, 1);
+}
+.special-section .bg-overlay {
+  background: rgba(0, 0, 0, 1);
+}
+.visit-section {
+  background: #781f32;
+}
+/* .bg-overlay {
+  background: rgba(0, 0, 0, 1);
+} */
+.enquire {
+  background-color: white;
+  color: #781f32 !important;
+  border-radius: 5px !important;
+}
+.dark #mainMenu nav > ul > li.hover-active > a,
+.dark #mainMenu nav > ul > li.hover-active > span,
+.dark #mainMenu nav > ul > li.current > a,
+.dark #mainMenu nav > ul > li.current > span,
+.dark #mainMenu nav > ul > li:hover > a,
+.dark #mainMenu nav > ul > li:hover > span,
+.dark #mainMenu nav > ul > li:focus > a,
+.dark #mainMenu nav > ul > li:focus > span,
+#mainMenu.dark nav > ul > li.hover-active > a,
+#mainMenu.dark nav > ul > li.hover-active > span,
+#mainMenu.dark nav > ul > li.current > a,
+#mainMenu.dark nav > ul > li.current > span,
+#mainMenu.dark nav > ul > li:hover > a,
+#mainMenu.dark nav > ul > li:hover > span,
+#mainMenu.dark nav > ul > li:focus > a,
+#mainMenu.dark nav > ul > li:focus > span {
+  color: #781f32;
+  border-radius: 5px !important;
+}
+.heading-text h2 {
+  font-size: 48px;
+}
+.visit-section .heading-text h2 {
+  font-size: 48px;
+}
+.highlight-text {
+  font-size: 24px;
+}
+.welcome-section .para {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.heading-text.heading-section h2 {
+  font-weight: bold;
+}
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .welcome-section .para {
+    font-size: 1.1rem;
+  }
+  .heading-text h2 {
+    font-size: 38px;
+  }
+  .heading-text.heading-section h2 {
+    font-size: 38px;
+  }
+  .visit-section .heading-text h2 {
+    font-size: 36px;
+  }
+  .highlight-text {
+    font-size: 18px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .welcome-section .para {
+    font-size: 1.1rem;
+  }
+  .heading-text h2 {
+    font-size: 38px;
+  }
+  .heading-text.heading-section h2 {
+    font-size: 38px;
+  }
+  .highlight-text {
+    font-size: 18px;
+  }
+  .visit-section .heading-text h2 {
+    font-size: 36px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .welcome-section .para {
+    font-size: 1.1rem; /* Slightly bigger on tablets */
+  }
+  .heading-text h2 {
+    font-size: 38px;
+  }
+  .heading-text.heading-section h2 {
+    font-size: 38px;
+  }
+  .highlight-text {
+    font-size: 18px;
+  }
+  .visit-section .heading-text h2 {
+    font-size: 36px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .welcome-section .para {
+    font-size: 1.1rem;
+  }
+  .heading-text h2 {
+    font-size: 40px;
+  }
+  .heading-text.heading-section h2 {
+    font-size: 40px;
+  }
+  .highlight-text {
+    font-size: 20px;
+  }
+  .visit-section .heading-text h2 {
+    font-size: 40px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .welcome-section .para {
+    font-size: 1.1rem;
+  }
+  .heading-text h2 {
+    font-size: 42px;
+  }
+  .highlight-text {
+    font-size: 22px;
+  }
+  .visit-section .heading-text h2 {
+    font-size: 44px;
+  }
+}
+
+/* Extra extra large devices (very large screens, 1400px and up) */
+@media (min-width: 1400px) {
+  .welcome-section .para {
+    font-size: 1.1rem;
+  }
+  .heading-text h2 {
+    font-size: 48px;
+  }
+  .highlight-text {
+    font-size: 24px;
+  }
+  .visit-section .heading-text h2 {
+    font-size: 48px;
+  }
+}
+
+.bg-overlay[data-style="4"] {
+  background: linear-gradient(
+    140deg,
+    rgba(0, 0, 0, 0.98) 0%,
+    rgba(13, 3, 0, 0.71) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+}
+.prof video {
+  border-radius: 12px;
+}
+.enquire-text a {
+  background-color: white !important;
+  color: #781f32 !important;
+}
+h1,
+h2 {
+  font-family: "IvyMode", serif !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+.background-grey {
+  background-color: #f8f1e7 !important;
+}
+.faq .accordion.accordion-shadow .ac-item {
+  background-color: white;
+}
+
+.img-events {
+  width: 150px;
+  height: 150px;
+}
+.inspiro-slider .slide .slide-captions h1 {
+  color: #f8f1e7 !important;
+}
+.inspiro-slider .slide .slide-captions > p {
+  color: #f8f1e7 !important;
+}
+.slide-captions a {
+  color: #f8f1e7 !important;
+}
+.dark #mainMenu nav > ul > li > a,
+#mainMenu.dark nav > ul > li > a {
+  color: #f8f1e7;
+}
+.text-light,
+.text-light h1,
+.text-light h2,
+.text-light h3,
+.text-light h4,
+.text-light h5,
+.text-light h6,
+.text-light .lead,
+.text-light p,
+.text-light a:not(.btn),
+.text-light a:not(.btn):hover:not(.btn-light),
+.text-light i,
+.text-light li,
+.text-light label,
+.text-light div:not(.alert),
+.text-light span:not(.btn-label) {
+  color: #f8f1e7 !important;
+}
+.background-maroon {
+  background-color: #781f32;
+}
+.background-maroon h2,
+.background-maroon p,
+.background-maroon span {
+  color: #f8f1e7 !important;
+}
+.background-maroon button {
+  background-color: #f8f1e7 !important;
+}
+.flickity-button:before {
+  color: #781f32 !important;
+}
+.flickity-page-dots .dot:after {
+  background-color: #f8f1e7 !important;
+}
+.mainMenu-open .logo-default {
+  display: none !important;
+}
+.flickity-button:hover {
+  color: #f8f1e7;
+}
+.gallery-prof .flickity-button:hover::before {
+  color: #f8f1e7 !important;
+}
+.gallery-prof .flickity-page-dots .dot:after {
+  background-color: #781f32 !important;
+}
+.special-screen .heading-text h2:before {
+  background-color: #f8f1e7 !important;
+}
+.special-screen .row {
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
+.special-screen .list-icon li {
+  color: #f8f1e7;
+}
+.special-screen .lead {
+  font-size: 16px !important;
+  margin-bottom: 15px;
+  font-size: 1rem !important;
+}
+
+.special-screen .heading-text h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.events-section .p1 {
+  font-style: italic;
+}
+.events-section h5 {
+  font-weight: bold;
+}
+.contact-us-img .parallax-container {
+  background: url("../images/project/gallery-home/contact-us.png") 0 !important;
+}
+.about-us-text {
+  text-align: justify;
+}
+#page-title[data-bg-parallax] .page-title > h1 {
+  color: #f8f1e7;
+  font-size: 48px;
+  font-weight: bold;
+}
+.prof-gallery .flickity-button:hover::before {
+  color: #f8f1e7 !important;
+}
+.prof-gallery .flickity-page-dots .dot:after {
+  background-color: #781f32 !important;
+}
+.ma-t {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.grid-active-title {
+  color: #781f32;
+}
