@@ -466,3 +466,43 @@ body {
 .grid-active-title {
   color: #781f32;
 }
+.premium-fac {
+  background-color: #781f32 !important;
+}
+.premium-fac .img-fluid {
+  height: 80px;
+}
+.premium-fac .col-lg-5 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.premium-fac .col-lg-7 {
+  padding-left: 0px;
+}
+.premium-fac .img-con {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+}
+.premium-fac .heading-section h2 {
+  font-weight: bold;
+}
+.premium-fac .container-wide {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.premium-fac h2 {
+  width: 100%;
+  color: #f8f1e7;
+  font-size: 40px !important;
+}
+.premium-fac .grid li:after {
+  border-bottom: 0px solid #eee;
+}
+.premium-fac .grid li:before {
+  border-left: 0px solid #eee;
+}
+.premium-fac .grid li:hover {
+  background-color: transparent !important;
+}
