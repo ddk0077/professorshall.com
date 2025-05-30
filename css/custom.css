@@ -506,3 +506,23 @@ body {
 .premium-fac .grid li:hover {
   background-color: transparent !important;
 }
+.premium-fac .heading-text.heading-section h2:before {
+  background-color: #f8f1e7;
+}
+
+.events-section .heading-text.heading-section h2:before {
+  background-color: #f8f1e7;
+}
+.premium-fac .grid li {
+  height: 150px;
+}
+.guest h2 {
+  color: #f8f1e7;
+}
+.guest .testimonial-item span,
+.guest .testimonial-item p {
+  color: #f8f1e7;
+}
+.flickity-button:hover:before {
+  color: #ffffff !important;
+}
